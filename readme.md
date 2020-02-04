@@ -10,7 +10,7 @@ follow https://github.com/ckiplab/ckiptagger
 
 `sh ./utils/setup.sh`
 
-# testing ckiptagger (WS) word segmentation feature
+# Testing ckiptagger (WS) word segmentation feature
 `python ./tests/ckiptaggerTest.py`
 
 # Word Tokenization
