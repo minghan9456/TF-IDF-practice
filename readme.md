@@ -10,20 +10,28 @@
 
 3. Install beautifulsoup4, scikit-learn
 
-`sh ./utils/setup.sh`
+```
+$ sh ./utils/setup.sh
+```
 
 # Testing ckiptagger (WS) word segmentation feature
-`python ./tests/ckiptaggerTest.py`
+```
+$ python ./tests/ckiptaggerTest.py
+```
 
 # Word Tokenization
-`sh ./wordTokenization/launcher.sh`
+```
+$ sh ./wordTokenization/launcher.sh
+```
 
 output files : 
 - `./wordTokenization/description.txt`
 - `./wordTokenization/output.txt`
 
 # TF-IDF
-`sh ./TF-IDF/launcher.sh`
+```
+$ sh ./TF-IDF/launcher.sh
+```
 
 output files : 
 - `./TF-IDF/output.txt`
