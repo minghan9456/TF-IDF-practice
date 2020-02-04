@@ -9,13 +9,6 @@ echoLog()
 
 echo "$PWD"
 
-# install beautifulsoup4, scikit-learn
-echoLog "Install beautifulsoup4, scikit-learn."
-
-pip3 install -U beautifulsoup4 scikit-learn
-
-echoLog "Done"
-
 # install ckiptagger
 echoLog "Install ckiptagger."
 
@@ -23,7 +16,7 @@ pip3 install -U ckiptagger[tf,gdown]
 
 echoLog "Done"
 
-# Fetch Source
+# Download model files
 echoLog "Download model files."
 
 python ./utils/downloadCkipTaggerModel.py
@@ -31,3 +24,11 @@ python ./utils/downloadCkipTaggerModel.py
 rm ./data.zip
 
 echoLog "Done"
+
+# install beautifulsoup4, scikit-learn
+echoLog "Install beautifulsoup4, scikit-learn."
+
+pip3 install -U beautifulsoup4 scikit-learn
+
+echoLog "Done"
+
